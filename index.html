@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/types.css">
+    <link rel="stylesheet" href="css/darkmode.css">
+</head>
+
+<body>
+
+<header>
+
+    <h1>Pokédex</h1>
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Buscar Pokémon">
+
+    <button id="btnSearch">
+        Buscar
+    </button>
+
+    <button id="darkMode">
+        🌙
+    </button>
+
+</header>
+
+<main>
+
+    <section id="pokemonContainer">
+
+    </section>
+
+</main>
+
+<!-- Modal -->
+
+<div id="modal" class="hidden">
+
+    <div class="modal-content">
+
+        <span id="closeModal">
+            ✕
+        </span>
+
+        <div id="pokemonDetails">
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="js/api.js"></script>
+<script src="js/evolution.js"></script>
+<script src="js/card.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/search.js"></script>
+<script src="js/favorite.js"></script>
+<script src="js/darkmode.js"></script>
+<script src="js/app.js"></script>
+<script src="js/scroll.js"></script>
+
+</body>
+</html>
